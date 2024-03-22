@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://64.media.tumblr.com/b9874736bdc3db0956617db6f9b210e4/8c7b2b5d40d4bc7c-10/s540x810/ce5cd7978b1e92222cc54eb5042ef63f72d9ddc5.gifv') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #1a1e1a;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .form-group button:hover {
+            background: #393b40;
+        }
+        
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-color: #1090c8;
+            color: #fbfbfb;
+            /* Màu xanh biển */
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background-color: #101210;
+        }
+        
+        .social-icons i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <a><img src="D:\Code_HTML\BaiTApHTML\Images\Hoyoverse.png" height="50px" width="300px"></a>
+        <form>
+            <div class="form-group">
+                <!-- <label for="username">Username</label> -->
+                <input type="text" id="username" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
